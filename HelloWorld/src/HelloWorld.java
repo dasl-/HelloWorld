@@ -1,6 +1,6 @@
 public class HelloWorld {
 
-	private static final boolean KROY_SUCKS_DONKEY_BALLS = true;
+	private static final boolean KROY_SUCKS_DONKEY_BALLS = false;
 
 	/**
 	 * main: will run our fucking awesome program
@@ -11,8 +11,8 @@ public class HelloWorld {
 	public static void main(String[] args) {
 		System.out.println("testing123");
 
-		if (KROY_SUCKS_DONKEY_BALLS) {
-			System.out.println("git is awesome!");
+		if (!KROY_SUCKS_DONKEY_BALLS) {
+			System.out.println("SKYFlyer sucks large nuts");
 		}
 	}
 
